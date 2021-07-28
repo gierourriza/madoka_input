@@ -1,0 +1,60 @@
+
+.container{
+    background-color: #2f3238;
+    height: 50%;
+    text-align: center;
+    width: 100%;
+
+    h2{
+         color: #fff;
+         opacity: 20%;
+         padding: 50px;
+    }
+    .madoka{
+        display: inline-block;
+        height: 200px;
+        margin-left: 40px;
+        position: relative;
+        vertical-align: top;
+        width: 250px;
+    
+        label{
+            bottom: 0px;
+            color: #76718D;
+            font-size: 25px;  
+            font-weight: bold;
+            height: 100%;
+            left: 0%;
+            padding-left: 10px;
+            pointer-events: none;
+            position: absolute;
+            text-align: left;
+            width: 100%;
+        }
+        input {
+            background: transparent;
+            border: none;
+            border-bottom: 2px solid #76718d;
+            color: #76718d;
+            font-size: 25px;
+            font-weight: bold;
+            height: 50px;
+            outline: none;
+            padding-left: 10px;
+            transition-delay: 0.3s;
+            width: 100%;
+            &:focus , &:valid{
+                border: 2px solid #76718d;
+                & + label{
+                    font-size: 18px;
+                    transform: translateY(60px);
+                }
+            }
+  
+        }
+        
+    }
+}
+
+
+
